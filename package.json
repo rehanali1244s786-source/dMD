@@ -1,0 +1,44 @@
+{
+  "name": "dock-md",
+  "version": "1.0.0",
+  "description": "DOCK MD - Production-Ready Multi-Device WhatsApp Bot & Vercel Pairing Platform",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node --watch index.js"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "keywords": [
+    "whatsapp-bot",
+    "baileys",
+    "dock-md",
+    "multi-device",
+    "nodejs"
+  ],
+  "author": "DOCK MD Architect",
+  "license": "MIT",
+  "dependencies": {
+    "@hapi/boom": "^10.0.1",
+    "@whiskeysockets/baileys": "^6.7.8",
+    "axios": "^1.7.7",
+    "chalk": "^5.3.0",
+    "cheerio": "^1.0.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.0",
+    "file-type": "^19.5.0",
+    "fluent-ffmpeg": "^2.1.3",
+    "form-data": "^4.0.0",
+    "moment-timezone": "^0.5.45",
+    "mongoose": "^8.7.0",
+    "node-cache": "^5.1.2",
+    "pino": "^9.4.0",
+    "qrcode": "^1.5.4",
+    "qrcode-terminal": "^0.12.0",
+    "sharp": "^0.33.5",
+    "yt-search": "^2.12.1"
+  }
+}
